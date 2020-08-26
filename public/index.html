@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1'>
+    <title>Component Import</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet" />
+
+    <script defer src='/test-component/dist/bundle.js'></script>
+    <link rel='stylesheet' href='/test-component/dist/bundle.css'>
+    
+    <script>
+        var svelteComponent;
+    </script>
+</head>
+
+<style>
+    body {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    button {
+        width: 30%;
+        height: 3rem;
+        font-size: 1.5rem;
+    }
+</style>
+
+<body>
+    <script>
+        document.addEventListener("DOMContentLoaded", function (event) {
+            svelteComponent = new OutsideName({
+                target: document.getElementById("svelte-component")
+            });
+            console.log(svelteComponent);
+        });
+    
+        function updateName() {
+            svelteComponent.name = "Ed";
+        }   
+    </script>
+        
+<h1>Import Svelte Component</h1>
+
+<div id="svelte-component"></div>
+
+<br/>
+
+<button onclick="updateName()">
+    Change Name
+</button>
+
+</body>
+</html>

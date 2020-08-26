@@ -1,0 +1,17 @@
+
+Build and consume a Svelte component:
+
+https://github.com/lingtalfi/TheBar/blob/master/discussions/inject-svelte-in-existing-app.md
+
+https://github.com/sveltejs/component-template
+
+https://medium.com/@maoznir/creating-a-svelte-components-library-b2134884735f
+
+https://medium.com/better-programming/creating-a-package-for-svelte-f44fccbc886b
+
+https://stackoverflow.com/questions/52382875/sveltejs-passing-data-to-components
+
+
+General Svelte References:
+
+https://dev.to/zev/how-does-svelte-actually-work-part-1-j9m

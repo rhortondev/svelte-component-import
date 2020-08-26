@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "..\\..\\..\\InsideName.svelte"
+  ],
+  "sourcesContent": [
+    "\r\n<svelte:options accessors/>\r\n\r\n<script>\r\n    export var name = \"Jim\";\r\n</script>\r\n\r\n<style>\r\n    .special {\r\n        font-style: italic;\r\n        border: none;\r\n        border-top: 2px solid #ccc;\r\n        border-bottom: 2px solid #ccc;\r\n        border-radius: 3px 3px 0 0;\r\n    }\r\n</style>\r\n\r\n<div class=\"special\">\r\n    <h1>\r\n        Dammit, {name}, I'm a doctor not a bricklayer\r\n    </h1>\r\n</div>\r\n"
+  ],
+  "names": [],
+  "mappings": "AAQI,QAAQ,cAAC,CAAC,AACN,UAAU,CAAE,MAAM,CAClB,MAAM,CAAE,IAAI,CACZ,UAAU,CAAE,GAAG,CAAC,KAAK,CAAC,IAAI,CAC1B,aAAa,CAAE,GAAG,CAAC,KAAK,CAAC,IAAI,CAC7B,aAAa,CAAE,GAAG,CAAC,GAAG,CAAC,CAAC,CAAC,CAAC,AAC9B,CAAC"
+}

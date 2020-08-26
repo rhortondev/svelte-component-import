@@ -1,2 +1,2 @@
 # svelte-component-import
-Import a Svelte Component and Set Component Properties
+Import a Svelte component and set component properties
